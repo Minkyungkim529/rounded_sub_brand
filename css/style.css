@@ -393,6 +393,7 @@ body{
     position: absolute;
     top: 290px;
     left: 350px;
+    z-index: 9999;
 }
 .c_1 img{
     display: block;
