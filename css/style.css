@@ -14,7 +14,7 @@ a{text-decoration: none; color: #3d3d3d;}
     position: fixed;
     top: 65%;
     right: -20px;
-    z-index: 99999;
+    z-index: 999;
 }
 .fixed_scroll_y img{
     width: 80%;
@@ -41,7 +41,7 @@ a{text-decoration: none; color: #3d3d3d;}
 }
 .fixed_scroll_p:hover{
     animation: motion 0.8s;
-    z-index: 999999
+    z-index: 99999
 }
 .fixed_scroll_p:hover .fixed_text{
     display: block;
@@ -319,7 +319,7 @@ body{
 }
 /*header_pc_F*/
 
-/*banner_s*/
+/*header_title_s*/
 @import url('https://fonts.cdnfonts.com/css/broken-console');
 .banner{
     font-family: 'Broken Console', sans-serif;
@@ -332,8 +332,7 @@ body{
     padding-top: 150px;
     text-shadow: 3px 3px 0 #be008c;
 }
-
-/*banner_f*/
+/*header_title_f*/
 
 /*section1_s*/
 @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
@@ -416,7 +415,7 @@ body{
 }
 #section2 .contents_wrap .pic1{
     float: right;
-    padding: 50px 50px 0 0;
+    margin: 50px 50px 0 0;
 }
 #section2 .contents_wrap .pic1 img{
     display: block;
